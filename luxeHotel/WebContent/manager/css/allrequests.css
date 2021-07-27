@@ -1,0 +1,135 @@
+.page-content{
+    margin-top: 150px;
+}
+.Alink{
+    background-color: #d41873;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    color: white;
+}
+.Alink:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background: #555555;
+    color: #000;
+}
+nav{
+    background-color: black;
+}
+body{
+    width: 100%;
+    /* height: 100vh; */
+    /* background-color: #070707; */
+    background-repeat: no-repeat;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: 1;
+    position: relative;
+
+}
+
+
+ul.request-ticket{
+    list-style: none;
+}
+ul.request-ticket li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #d41873; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+.section-request{
+    /* background-color: #d41873; */
+    border-radius: 20px;
+    background: #fff;
+    /* padding: 30px; */
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 20%);
+    width: 400px;
+    padding: 20px;
+}
+.btn-edit{
+    float: right;
+    padding: 5px 20px;
+    background-color: #d41873;
+    text-align: center;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    transition: .4s;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+}
+.btn-edit:hover{
+    background-color: #8a104b;
+}
+.btn-save, .btn-delete{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    transition: .4s;
+
+}
+.btn-delete{
+    background-color: #c03a2b;
+    color: white;
+}
+.btn-delete:hover{
+    background-color: #85291f;
+}
+.btn-save{
+    background-color: #30cc71;
+    color: white;
+}
+.btn-save:hover{
+    background-color: #238d4f;
+}
+.request-time{
+    color: #d41873;
+    font-weight: bold;
+}
+
+.ConfirmedLbl{
+    text-transform: uppercase;
+    background-color: #d41873;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;    
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+}
+/* #hide_show_inputs_btn_{
+    background-color: #3398db;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    transition: .4s;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+} */
+
+.btn-success{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    transition: .4s;
+}

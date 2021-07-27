@@ -1,0 +1,87 @@
+.Alink{
+    background-color: #d41873;
+    padding: 10px 20px;
+    border-radius: 30px;
+    transition: .3s;
+    color: white;
+}
+.Alink:hover{
+    text-decoration: none;
+    cursor: pointer;
+    background: #555555;
+    color: #000;
+}
+nav{
+    background-color: black;
+}
+
+ul.request-ticket{
+    list-style: none;
+    padding: 10px;
+}
+ul.request-ticket li::before {
+    content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+    color: #d41873; /* Change the color */
+    font-weight: bold; /* If you want it to be bold */
+    display: inline-block; /* Needed to add space between the bullet and the text */
+    width: 1em; /* Also needed for space (tweak if needed) */
+    margin-left: -1em; /* Also needed for space (tweak if needed) */
+  }
+.section-request{
+	margin-top: 200px;
+    /* background-color: #d41873; */
+    border-radius: 20px;
+    background: #fff;
+    /* padding: 30px; */
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 10%);
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 20%);
+    width: 400px;
+    padding: 20px;
+}
+
+.btn-delete{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    transition: .4s;
+
+}
+.btn-delete{
+    background-color: #c03a2b;
+    color: white;
+    display: float;
+}
+.btn-delete:hover{
+    background-color: #85291f;
+}
+
+.request-time{
+    color: #d41873;
+    font-weight: bold;
+}
+
+.ConfirmedLbl{
+    text-transform: uppercase;
+    background-color: #d41873;
+    padding: 10px 0;
+    border-radius: 20px;
+    color: white;
+    text-align: center;
+    font-weight: bold;    
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+}
+
+
+.btn-success{
+    border-radius: 20px;
+    width: 120px;
+    padding: 10px 20px;
+    font-weight: bold;
+    box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    -webkit-box-shadow: 0 10px 30px -10px rgb(0 0 0 / 30%);
+    transition: .4s;
+}
